@@ -9,7 +9,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Registration</title>
-    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="stylesheet" href="StyleSheet2.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -30,7 +30,7 @@
                 ErrorMessage="Incorrect Email" Forecolor="Red" Font-Bold="true" 
                 ControlToValidate="TEmail" 
                 ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">
-<span>*</span></asp:RegularExpressionValidator>
+                <span>*</span></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="LPhone" runat="server" Text="Your Phone: " CssClass="Label" />
             <asp:TextBox ID="TPhone" runat="server" Text="" CssClass="Text" />
@@ -46,6 +46,7 @@
             <asp:Button ID="BClear" runat="server" Text="Clear" CssClass="Button" />
             <br />
             <asp:Label ID="LInfo" runat="server" Visible="false" CssClass="Label" />
+            <asp:ValidationSummary ID="validSummary" runat="server" ForeColor="Red" />
         </div>
     </form>
 </body>

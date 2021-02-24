@@ -1,0 +1,45 @@
+﻿ /*
+    CSS Styles for WebForm1
+    Christopher Dickerson
+*/
+
+html {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    height: inherit;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    height: inherit;
+}
+
+body h1 {
+    font: bold 50px arial;
+    text-decoration: underline;
+}
+
+.Label {
+    font: 35px arial;
+}
+
+.Text {
+    font: 20px arial;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 5px;
+}
+
+.Button {
+    display: block;
+    font: 25px arial;
+    border-bottom: 5px;
+    border-top: 5px;
+}
