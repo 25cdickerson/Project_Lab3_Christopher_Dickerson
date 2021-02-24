@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project1_Lab1_Christopher_Dickerson
+namespace Project_Lab3_Christopher_Dickerson
 {
 
 

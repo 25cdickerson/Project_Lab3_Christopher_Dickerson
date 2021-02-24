@@ -2,7 +2,7 @@
      Christopher Dickerson
     -->
 
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Project1_Lab1_Christopher_Dickerson.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Project_Lab3_Christopher_Dickerson.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -19,7 +19,7 @@
             <asp:TextBox ID="TName" runat="server" Text="" CssClass="Text" />
             <asp:RequiredFieldValidator ID="validName" runat="server" 
                 ErrorMessage="Enter Name" Forecolor="Red" 
-                ControlToValidate="TName" Type="String" Font-Bold="true" ><span>*<span></span></span></asp:RequiredFieldValidator>
+                ControlToValidate="TName" Type="String" Font-Bold="true" ><span>*</span></asp:RequiredFieldValidator>
             <br />
             <asp:Label ID="LEmail" runat="server" Text="Your Email: " CssClass="Label" />
             <asp:TextBox ID="TEmail" runat="server" Text="" CssClass="Text" />
@@ -30,7 +30,7 @@
                 ErrorMessage="Incorrect Email" Forecolor="Red" Font-Bold="true" 
                 ControlToValidate="TEmail" 
                 ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">
-                <span>*</span></asp:RegularExpressionValidator>
+<span>*</span></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="LPhone" runat="server" Text="Your Phone: " CssClass="Label" />
             <asp:TextBox ID="TPhone" runat="server" Text="" CssClass="Text" />
